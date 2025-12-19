@@ -1,4 +1,3 @@
-```typescript
 import { NextRequest, NextResponse } from 'next/server';
 import { Solar } from 'lunar-javascript';
 import { v4 as uuidv4 } from 'uuid';
@@ -94,4 +93,3 @@ export async function GET(request: NextRequest) {
     });
   } catch (e) { return NextResponse.json({ error: 'Server Error' }, { status: 500 }); }
 }
-```
