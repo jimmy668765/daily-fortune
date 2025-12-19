@@ -1,4 +1,3 @@
-```tsx
 'use client';
 import { useState, useEffect } from 'react';
 import { Calendar, ArrowRight, AlertCircle, Sparkles } from 'lucide-react';
@@ -78,4 +77,3 @@ export default function Home() {
     </main>
   );
 }
-```
