@@ -19,21 +19,3 @@ export default function RootLayout({
   );
 }
 ```
-**操作：** 提交。
-
----
-
-### **📄 文件 4：`app/globals.css` (样式)**
-
-**文件名输入：** `app/globals.css`
-**内容粘贴：**
-```css
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  background-color: #F2F2F7;
-}
-```
